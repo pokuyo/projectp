@@ -11,6 +11,7 @@ import com.projectp.client.board.service.BoardService;
 public class BoardController {
 	Logger logger = Logger.getLogger(BoardController.class);
 	
+	
 	@Autowired
 	private BoardService boardService;
 	
