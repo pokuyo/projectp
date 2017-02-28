@@ -15,6 +15,8 @@
 <title>Insert title here</title>
 <style type="text/css">
 	.temp {margin-top:3em; width:200px; height:200px; background:#f00;}
+	table {width:720px;}
+	td {border:1px solid #f00;}
 </style>
 </head>
 <body>
@@ -22,10 +24,13 @@
 		<c:choose>
 			<c:when test="${not empty memberList}">
 				<c:forEach var="memberList" items="${memberList}">
-					${memberList.userId} | ${memberList.userName}
+					${memberList.userId}
+					${memberList.userName}
+					${memberList.userPw}
 				</c:forEach>
 			</c:when>
 		</c:choose>
 	</div>
+	
 </body>
 </html>

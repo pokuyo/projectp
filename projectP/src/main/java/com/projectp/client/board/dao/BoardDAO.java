@@ -1,5 +1,9 @@
 package com.projectp.client.board.dao;
 
-public interface BoardDAO {
+import java.util.List;
 
+import com.projectp.client.board.vo.BoardVO;
+
+public interface BoardDAO {
+	public List<BoardVO> boardList();
 }

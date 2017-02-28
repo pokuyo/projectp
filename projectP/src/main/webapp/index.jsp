@@ -13,10 +13,10 @@
 <![endif]--> 
 <title>Insert title here</title>
 <script type="text/javascript">
-	location.href="member/main.do";
 </script>
 </head>
 <body>
-
+	<a href="/member/main.do">member</a>
+	<a href="/board/main.do">board</a>
 </body>
 </html>
